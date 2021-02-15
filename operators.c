@@ -18,7 +18,7 @@ void main()
     scanf("%d",&num2);
 
 
-    //  arithematic operators
+    //================  Arithematic operators   ==============
 
     //  plus operator
     addition = num1 + num2 ;
@@ -39,6 +39,48 @@ void main()
     div = ( num1 * 1.0f ) / num2 ;
 
     printf("Division is %f\n",div);
+
+
+
+
+    //  ==========  Comparison / Relational Operators   ========
+    int result;
+
+    //  '=='(Equal to Operator)
+    result = num1 == num2 ;
+    printf("%d == %d : %d\n",num1,num2,result);
+
+
+    //  '!='(Not Equal to Operator)
+    result = num1 != num2 ;
+    printf("%d != %d : %d\n",num1,num2,result);
+
+
+    //  '>'( Greater Than Operator)
+    result = num1 > num2 ;
+    printf("%d > %d : %d\n",num1,num2,result);
+
+
+    //  '<'( Less Than Operator)
+    result = num1 < num2 ;
+    printf("%d < %d : %d\n",num1,num2,result);
+
+
+    //  '>='( Greater Than Equals To Operator)
+    result = num1 >= num2 ;
+    printf("%d >= %d : %d\n",num1,num2,result);
+
+
+    //  '<='( Less Than Equals To Operator)
+    result = num1 <= num2 ;
+    printf("%d <= %d : %d\n",num1,num2,result);
+
+
+
+
+
+
+
 
 
     getch();
