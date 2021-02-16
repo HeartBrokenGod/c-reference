@@ -76,8 +76,34 @@ void main()
     printf("%d <= %d : %d\n",num1,num2,result);
 
 
+    //  ==========  Logical Operators   ========
+
+    //  '&&' Logical AND
+    result = 0 && 1 ;
+    printf("0 && 1 : %d\n",result);
 
 
+    //  '||' Logical OR
+    result = 0 || 1 ;
+    printf("0 || 1 : %d\n",result);
+
+    //  '!' Logical NOT
+    result = !1 ;
+    printf("!1 : %d\n",result);
+
+
+
+
+
+    //  ==========  Bitwise Operators   ========
+
+    //  '&' Bitwise AND
+    result = 13 & 36 ;
+    printf("13 & 36 : %d\n",result);
+
+    //  '|' Bitwise Or
+    result = 0b00001101 | 0b00100100 ;
+    printf("13 | 36 : %d\n",result);
 
 
 
