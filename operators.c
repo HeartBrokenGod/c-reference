@@ -105,7 +105,15 @@ void main()
     result = 0b00001101 | 0b00100100 ;
     printf("13 | 36 : %d\n",result);
 
+    //  '<<' Bitwise Leftshift
+    num1 = 3;
+    result = num1 << 2 ;
+    printf("%d << 2 : %d\n",num1,result);
 
+
+    //  '>>' Bitwise Rightshift
+    result = num1 >> 2 ;
+    printf("%d >> 2 : %d\n",num1,result);
 
 
 
