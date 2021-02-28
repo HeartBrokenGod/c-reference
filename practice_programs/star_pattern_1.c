@@ -8,15 +8,15 @@ void main()
     int num;
     scanf("%d",&num);
     printf("\n");
-    //  calling function numbrPattern1
-    numberPattern1(num);
+    //  calling function starPattern1
+    starPattern1(num);
     printf("\n\n================= Star Pattern 1 Program ==================\n\n");
     getch();
 }
 
 
 //  created separated function for printing pattern
-void numberPattern1(int num){
+void starPattern1(int num){
 
     //  this loop switches the line
     for(int linePosition = 0; linePosition < num; linePosition++){
